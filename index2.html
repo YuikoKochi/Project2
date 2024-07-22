@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Story of Next Hot Spot in TOKYO</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-rendering: optimizeLegibility;
+        }
+
+        .content {
+            max-width: 640px;
+            margin: auto;
+        }
+
+        .header {
+            padding: 3em 0;
+        }
+
+        a {
+            color: #4949f0;
+        }
+
+        .footer {
+            background: #f4f4f4;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        figure {
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #666;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: 'Lora', Georgia, serif;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #fffbaf;
+            font-size: 0.85em;
+        }
+
+        .full-width figure {
+            text-align: center; 
+        }
+
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <img src="topimage.jpg" alt="Description of the image" style="width: 100%; height: auto;">
+            <h1>Where is the Next Hot Spot in Tokyo?</h1>
+            <p class="subhead">One Different Story Unfolds Beyond Central Concentration Towards 2050</p>
+        </div>
+        <div class="byline">
+            <p>By Yuiko Kochi</p>
+        </div>
+        <p>
+            In June 2024, Japan saw a record-breaking number of foreign tourists visit in a single month, surpassing 3.13 million. According to <a href="https://www.jnto.go.jp/news/press/20240719_monthly.html">the Japan National Tourist Organization</a>, this increase includes not just tourists from Asia but also a growing number from the United States. The depreciation of the yen, influenced by currency fluctuations, has helped make Tokyo not just a mysterious Far Eastern city but an accessible and affordable destination.
+        </p>
+        <p>
+            But does this mean Tokyo's population will also continue to rise, not just its tourist numbers? That's an optimistic scenario I've been considering. Let's look at the data to see if it might be true.
+        </p>
+            <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/18789867"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        <p>
+            In December 2023, <a href="https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp"> National Institute of Population and Social Security Research"</a> released their latest population forecasts for Japan up to 2050. They predict a sharp decrease of about 33 million across the country. For Tokyo, the numbers suggest a gradual increase from 14.05 million in 2020 to 14.46 million by 2035, but then a slight decline to about 14.40 million by 2050. This trend includes a notable rise in the elderly population, reflecting the broader aging trend across Japan.
+        </p>
+        <p>
+            Then, let's take a closer look at how different areas in Tokyo are doing. The heart of the city is made up of 23 wards around Tokyo Bay. Areas like Chiyoda, Chuo, and Minato in the center are expected to keep growing, while places like Katsushika and Edogawa on the eastern side might see fewer people. The difference in growth rates between these areas is getting more obvious over time.
+        </p>
+        <div class="flourish-embed flourish-scatter" data-src="visualisation/18772453" style="width: 800px; height: 600px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+        <p>
+            From this result, Taito Ward caught my attention because, even though it's not one of the top three, it's expected to grow faster than many other areas. Taito is the smallest of the 23 wards. I compared it to Chiyoda Ward, the bustling heart of Japan. Chiyoda Ward is known for its green Imperial Palace, Tokyo Station, and a skyline full of skyscrapers over 100m tall.
+        </p>
+        <figure>
+            <img
+                src="tokyochiyodamap2.jpg">
+            <figcaption>A map of Chiyoda Ward showing land use and building heights. Building heights are categorized into single-story, low-rise, mid-rise, high-rise, and skyscrapers. It is evident that skyscrapers are concentrated around Tokyo Station. (Tool used: QGIS, Map data source: Tokyo Metropolitan Government Open Data)</figcaption>
+        </figure>
+        <p>In contrast, Taito Ward's map shows it packed with small homes and buildings, giving it a real downtown feel. It lacks the high-rise buildings and big developments seen elsewhere. However, it's becoming a more desirable place to live, and as a result, housing rents are going up.</p>
+        <figure>
+            <img
+                src="tokyotaitomap4.jpg">
+            <figcaption>A map of Chiyoda Ward showing land use and building heights. Low and small buildings are densely packed.(Tool used: QGIS, Map data source: Tokyo Metropolitan Government Open Data)</figcaption>
+        </figure>
+        <p>
+            Taito has been an important entry point to Tokyo from the north since the Edo period. It's still well-connected with over a dozen train and subway lines. Add to that, there are many urban amenities like the popular Asakusa Temple, the renowned National Museum of Art, and the vast Ueno Park. This combination of a pleasant living environment and unique appeal might be what's drawing more people to the area.
+        </p>
+    </div>
+    <div class="full-width">
+        <figure>
+            <img
+                src="Asakusa_px500.jpg" alt="Description of the image">
+            <figcaption>Photo of Taito Ward. Asakusa Temple is visible in the bottom left, with the Skytree in the far left background.(photographer: Seiji Sawada) </figcaption>
+        </figure>
+    <div class="content">
+        <p>
+            Today, Tokyo has become a megacity, home to 14.17 million people. According to the global city rankings released annually by the Mori Memorial Foundation, a private organization operated by Mori Building, Japan is ranked as the third most attractive city in the world, trailing only New York and London. 
+        </p>
+        <p>
+            Tokyo scores particularly high in the field such as "Research & Development" and "Transportation & Access." Notably, in 2023, it climbed eight ranks in the "Living" category, thanks to its low cost of living. Like its tourism, the cost of living in Tokyo is affordable, with low housing rents and consumer prices, and the city is packed with restaurants and shops, making it highly convenient for residents.
+        </p>
+    </div>
+    <div class="content">
+        <p>
+            With its old downtown charm still intact, Taito Ward is becoming more popular. Why not consider living there before it gets too crowded?
+        </p>
+    </div>
+    <div class="footer">
+        <div class="content">
+            <p>All of a code and data for this article is available on <a href="https://github.com/YuikoKochi/project2.git">Github</a>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
